@@ -481,4 +481,19 @@ config MACH_XIAOMI_TITANIUM
 	  Support for the Xiaomi Titanium platform
 	  which is based on QCOM TITANIUM chipset.
 
+config MACH_XIAOMI_YSL
+	bool  "XIAOMI platform"
+	depends on ARCH_MSM8953
+	help
+	  Support for the Xiaomi Redmi S2 platform
+	  which is based on QCOM MSM8953 chipset.
+
+config MACH_XIAOMI_VINCE
+	bool  "XIAOMI platform"
+	depends on ARCH_MSM8953
+	help
+	  Support for the Xiaomi Redmi 5 Plus platform
+	  which is based on QCOM MSM8953 chipset.
+
+
 endmenu
